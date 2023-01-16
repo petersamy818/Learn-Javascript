@@ -36,6 +36,7 @@ window.onload = function () {
 
     // console.table(["Elzero", "Ahmed", "Sameh", "Gamal", "Aya"]);
 
+
     // classes from 10 - 17
 
     // var user = "peter",
@@ -44,6 +45,24 @@ window.onload = function () {
     // console.log(age);
     // console.log(hello);
     // hello.innerHTML = "Option";
+
+    // console.log("Elzero\n Web School");
+
+    // let a = "We Love";
+    // let b = "JavaScript";
+    // let c = "and";
+    // let d = "Programming";
+    // console.log(a + " " + b + "\n" + c + " " + d);
+    // console.log(`${a} ${b}
+    // ${c} ${d}`);
+
+
+    // assignments Solution
+    // let numberOne = 10;
+    // let numberTwo = 20;
+    // console.log(typeof numberOne + typeof numberTwo);
+    // console.log(typeof`${numberOne}${numberTwo}`);
+
 
     
 };
