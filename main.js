@@ -64,5 +64,40 @@ window.onload = function () {
     // console.log(typeof`${numberOne}${numberTwo}`);
 
 
-    
+    // console.log((100).toString());
+    // console.log(100.10.toString());
+    // console.log(100.56564454.toFixed(2));
+    // console.log(Number("100 osama"))
+    // console.log(+("100 osama"));
+    // console.log(parseInt("100 osama"));
+    // console.log(parseInt("osama 100 osama"));
+    // console.log(parseInt("100.55 osama"));
+    // console.log(parseFloat("100.500 osama"));
+    // console.log(Number.isInteger("100"));
+    // console.log(Number.isInteger(100));
+    // console.log(Number.isInteger(100.500));
+    // console.log(Number.isNaN("osama" / 20));
+
+    // console.log(Math.round(99.2));
+    // console.log(Math.round(99.8));
+    // console.log(Math.ceil(99.2));
+    // console.log(Math.floor(99.9));
+    // console.log(Math.min(10, 20, 100, -100, 150, -200));
+    // console.log(Math.max(10, 20, 100, -100, 150, -200));
+    // console.log(Math.pow(2, 2));
+    // console.log(Math.random());
+    // console.log(Math.trunc(99.9));
+
+    // let theName = "  Ahmed  ";
+    // console.log(theName);
+    // console.log(theName[1]);
+    // console.log(theName[5]);
+    // console.log(theName[10]);
+    // console.log(theName.charAt(3));
+    // console.log(theName.charAt(10));
+    // console.log(theName.length);
+    // console.log(theName.trim());
+    // console.log(theName.toLowerCase());
+    // console.log(theName.toUpperCase());
+    // console.log(theName.trim().charAt(0).toLowerCase());
 };
