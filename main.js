@@ -100,4 +100,45 @@ window.onload = function () {
     // console.log(theName.toLowerCase());
     // console.log(theName.toUpperCase());
     // console.log(theName.trim().charAt(0).toLowerCase());
+
+    // let a = "Elzero Web School";
+    // console.log(a.length);
+    // console.log(a.substring(2, 6));
+    // console.log(a.substring(6, 2));
+    // console.log(a.substring(-100, 6));
+    // console.log(a.substring(a.length - 6, a.length - 3));
+    // console.log(a.substr(2,4)); // this feature (substr) is deprecated now
+    // console.log(a.includes("Web"));
+    // console.log(a.includes("Web", 8));
+    // console.log(a.startsWith("z"));
+    // console.log(a.startsWith("z", 2));
+    // console.log(a.startsWith("zero", 2));
+    // console.log(a.endsWith("o", 6));
+
+
+    // assignments Solution
+    // let word = "Elzero";
+    // let letterz = "z";
+    // let letterE = "e";
+    // let letterO = "o";
+    // console.log(word.includes(letterz));
+
+    
+    // let price = 200;
+    // let discount = true;
+    // let discountAmount = 0.3;
+    // if (discount = true) {
+    //     price -= price * discountAmount;
+    // }
+    // console.log(price);
+
+    let name = "peter";
+    let gender = "female";
+    let age = 30;
+    if (gender === "male") {
+        console.log("mr");
+    } else {
+        console.log("mrs");
+    }
+    gender === "male" ? console.log("Mr") : console.log("Mrs");
 };
