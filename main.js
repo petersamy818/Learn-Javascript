@@ -132,13 +132,37 @@ window.onload = function () {
     // }
     // console.log(price);
 
-    let name = "peter";
-    let gender = "female";
-    let age = 30;
-    if (gender === "male") {
-        console.log("mr");
-    } else {
-        console.log("mrs");
-    }
-    gender === "male" ? console.log("Mr") : console.log("Mrs");
+    // let name = "peter";
+    // let gender = "female";
+    // let age = 30;
+    // if (gender === "male") {
+    //     console.log("mr");
+    // } else {
+    //     console.log("mrs");
+    // }
+    // gender === "male" ? console.log("Mr") : console.log("Mrs");
+
+
+    // let day= 20;
+    // switch (day) {
+    //     case 0:
+    //         console.log("Saterday");
+    //         break;
+    //     case 1:
+    //         console.log("Sunday");
+    //         break;
+    //     case 2:
+    //         console.log("Monday");
+    //         break;
+    //     default:
+    //         console.log("Unknown Value");
+    //         break;
+    // }
+
+    // let myFriends = ["Peter", "ahmed", "Bishoy", ["Ali", "Sayed"]];
+    // console.log(`hello ${myFriends[0]}`);
+    // console.log(`hello ${myFriends[1][2]}`);
+    // console.log(`hello ${myFriends[3]}`);
+    // console.log(`hello ${myFriends[3][1]}`);
+    // console.log(myFriends.length);
 };
