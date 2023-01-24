@@ -165,4 +165,53 @@ window.onload = function () {
     // console.log(`hello ${myFriends[3]}`);
     // console.log(`hello ${myFriends[3][1]}`);
     // console.log(myFriends.length);
+
+    // let myFriends = ["peter", "sayed", "bishoy", "amer", "malak", "gamal", "ahmed", "mohamed"];
+    // console.log(myFriends.slice(-3, 6));
+
+    // let myFriends = ["peter", "sayed", "bishoy", "amer"];
+    // let myNewFriends = ["malak", "gamal", "ahmed", ];
+    // let schoolFriends = ["mohamed", "john"];
+    // let allFriends = myFriends.concat(myNewFriends, schoolFriends, "gameel", ["mostafa", "magdy"]);
+    // console.log(allFriends);
+    
+    // console.log(allFriends.join());
+    // console.log(allFriends.join(""));
+    // console.log(allFriends.join(" "));
+    // console.log(allFriends.join(" | "));
+    // console.log(allFriends.join(" @ "));
+    // console.log(allFriends.join(" @ ").toUpperCase());
+
+    // for (i = 0; i < 10; i++) {
+    //     console.log(i);
+    // }
+
+    // let products = ["keybourds", "mouses", "screens", "hard desks", "monitors"];
+    // let colors = ["red", "blue", "green", "white"];
+    // let models = ["2020", "2021", "2022"];
+    // console.log("Products is");
+    // for (i = 0; i < products.length; i++) {
+    //     console.log(products[i]);
+    //     console.log("Colors is");
+    //     for (j = 0; j <colors.length; j++) {
+    //         console.log(colors[j]);
+    //     }
+    //     console.log("Models is");
+    //     for (k = 0; k < models.length; k++) {
+    //         console.log(models[k]);
+    //     }
+    // }
+
+    // let products = ["keybourds", "mouses", "screens", "hard desks", "monitors"];
+    // let colors = ["red", "blue", "green", "white"];
+    // let showCount = 5;
+    // document.write(`<h1>Show ${showCount} Products</h1>`);
+    // for (i = 0; i < showCount; i++) {
+    //     document.write(`<Div>`);
+    //     document.write(`<h3>[${i + 1}] ${products[i]}</h3>`);
+    //     for (j = 0; j < colors.length; j++) {
+    //         document.write(`<p>${colors[j]}</p>`);
+    //     }
+    //     document.write(`</Div>`);
+    // }
 };
