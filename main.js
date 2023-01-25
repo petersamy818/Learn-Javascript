@@ -214,4 +214,25 @@ window.onload = function () {
     //     }
     //     document.write(`</Div>`);
     // }
+
+    // let products = ["keybourds", "mouses", "screens", "hard desks", "monitors"];
+    // let index = 0;
+    // while (index < products.length) {
+    //     console.log(products[index]);
+    //     index += 1;
+    // }
+
+    // let products = ["keybourds", "mouses", "screens", "hard desks", "monitors"];
+    // let i = 0;
+    // do {
+    //     console.log(products[i])
+    //     i++
+    // } while (false);
+
+    // function sayHello(userName) {
+    //     console.log(`Hi ${userName}`)
+    // }
+    // sayHello("Osama");
+    // sayHello("Sayed");
+    // sayHello("Ali");
 };
