@@ -235,4 +235,52 @@ window.onload = function () {
     // sayHello("Osama");
     // sayHello("Sayed");
     // sayHello("Ali");
+
+    // function sayHello(userName, age) {
+    //     if (age === undefined) {
+    //         age = "Unknown";
+    //     }
+    //     return `Hello ${userName} Your Age is ${age}`;
+    // }
+    // console.log(sayHello("osama", 24));
+
+    // function sayHello(userName, age) {
+    //     age = age || "Unknown";
+    //     return `Hello ${userName} Your Age is ${age}`;
+    // }
+    // console.log(sayHello("osama"));
+
+    // function sayHello(userName = "Unknown", age = "Unknown") {
+    //     return `Hello ${userName} Your Age is ${age}`;
+    // }
+    // console.log(sayHello());
+
+    // function calc(...numbers) {
+    //     let result = 0;
+    //     for (let i = 0; i < numbers.length; i++) {
+    //         result += numbers[i];
+    //     }
+    //     return `The Final Result Is ${result}`;
+    // }
+    // console.log (calc(10, 20, 30, 41, 50, 60));
+
+    // function showInfo(userName = "Unknown", age = "Unknown", Rating = "0", show = "yes", ...skills) {
+    //     document.write(`<div>`);
+    //     document.write(`<h2>Welcome, ${userName}</h2>`);
+    //     document.write(`<p>Age: ${age}</p>`);
+    //     document.write(`<p>Hour Rate: ${Rating}</p>`);
+    //     if (show === "yes") {
+    //         if (skills.length > 0) {
+    //             document.write(`<p>Skills: ${skills.join(" | ")}</p>`);
+    //         } else {
+    //             document.write(`<p>Skills: No Skills To Show</p>`);
+    //         }
+    //     } else {
+    //         document.write(`<p>Skills Is Hidden</p>`);
+    //     }
+    //     document.write(`</div>`);
+    // }
+    // showInfo("Peter", 24, 100, "yes", "Strong", "good");
+
+
 };
