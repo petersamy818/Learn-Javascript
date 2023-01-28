@@ -283,4 +283,53 @@ window.onload = function () {
     // showInfo("Peter", 24, 100, "yes", "Strong", "good");
 
 
-};
+    // function showDetails(a, b, c) {
+    //     let name;
+    //     let age;
+    //     let status;
+        // if (typeof a === "string") {
+        //     name = a;
+        // } else if (typeof a === "number") {
+        //     age = a;
+        // } else {
+        //     status = a;
+        // }
+        // if (typeof b === "string") {
+        //     name = b;
+        // } else if (typeof b === "number") {
+        //     age = b;
+        // } else {
+        //     status = b;
+        // }
+        // if (typeof c === "string") {
+        //     name = c;
+        // } else if (typeof c === "number") {
+        //     age = c;
+        // } else {
+        //     status = c;
+        // }
+        // if (status === true) {
+        //     status = "Available";
+        // } else {
+        //     status = "Not Available";
+        // }
+    //     typeof a === "string" ? name = a : typeof a === "number" ? age = a : status = a;
+    //     typeof b === "string" ? name = b : typeof b === "number" ? age = b : status = b;
+    //     typeof c === "string" ? name = c : typeof c === "number" ? age = c : status = c;
+    //     status === true ? status = "Available" : status = "Not Available";
+    //     document.write(`<p>Hello ${name}, Your Age Is ${age}, You Are ${status} For Work</p>`);
+    // }
+    // showDetails("Peter", 38, true);
+    // showDetails(38, "Peter", true);
+    // showDetails(true, 38, "Peter");
+    // showDetails(false,"Peter", 38);
+
+
+    // let print = function () {
+    //     return 10;
+    // }
+    // let print = () => 10;
+    // console.log(print());
+
+    
+}
