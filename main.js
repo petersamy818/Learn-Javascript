@@ -331,5 +331,35 @@ window.onload = function () {
     // let print = () => 10;
     // console.log(print());
 
+    // let swappingCases = "elZERo";
+    // let invertedNumbers = [1, -10, -20, 15, 100, -30];
+    // let ignoreBooleans = "Elz123er4o";
+    // // let sw = swappingCases.split("").map(function(ele) {
+    // //     return ele === ele.toUpperCase() ? ele.toLowerCase() : ele.toUpperCase()
+    // // }).join("");
+    // // console.log(sw);
+
+    // let sw = swappingCases.split("").map((ele) => (ele === ele.toUpperCase() ? ele.toLowerCase() : ele.toUpperCase())).join("");
+    // console.log(sw);
+
+    // // let inv = invertedNumbers.map(function (ele) {
+    // //     return -ele;
+    // // })
+    // // console.log(inv);
+
+    // let inv = invertedNumbers.map((ele) => -ele);
+    // console.log(inv);
+
+    // let ign = ignoreBooleans.split("").map(function(ele) {
+    //     return isNaN(parseInt(ele)) ? ele : "";
+    // }).join("");
+    // console.log(ign);
+
+    // let sentence = "I Love Foood Code Too Playing Much";
+    // let smallWords = sentence.split(" ").filter(function(ele) {
+    //     return ele.length <= 4;
+    // }).join(" ");
+    // console.log(smallWords);
+
     
 }
