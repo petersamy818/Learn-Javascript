@@ -361,5 +361,25 @@ window.onload = function () {
     // }).join(" ");
     // console.log(smallWords);
 
-    
+    // let removeChars = ["E", "@", "@", "L", "Z", "@", "@", "E", "R", "O"];
+    // let finalString = removeChars.filter(function(ele) {
+    //     return !ele.startsWith("@");
+    // }).reduce(function(acc, current) {
+    //     return `${acc}${current}`;
+    // })
+    // console.log(finalString);
+
+    let allLis = document.querySelectorAll("ul li");
+    let allDivs = document.querySelectorAll(".content div");
+    allLis.forEach(function(ele) {
+        ele.onclick = function() {
+            allLis.forEach(function(ele) {
+                ele.classList.remove("active")
+            });
+            this.classList.add("active");
+            allDivs.forEach(function(ele) {
+                ele.style.display = "none";
+            })
+        }
+    })
 }
