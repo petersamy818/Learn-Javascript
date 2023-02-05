@@ -369,17 +369,72 @@ window.onload = function () {
     // })
     // console.log(finalString);
 
-    let allLis = document.querySelectorAll("ul li");
-    let allDivs = document.querySelectorAll(".content div");
-    allLis.forEach(function(ele) {
-        ele.onclick = function() {
-            allLis.forEach(function(ele) {
-                ele.classList.remove("active")
-            });
-            this.classList.add("active");
-            allDivs.forEach(function(ele) {
-                ele.style.display = "none";
-            })
+    // let allLis = document.querySelectorAll("ul li");
+    // let allDivs = document.querySelectorAll(".content div");
+    // allLis.forEach(function(ele) {
+    //     ele.onclick = function() {
+    //         allLis.forEach(function(ele) {
+    //             ele.classList.remove("active")
+    //         });
+    //         this.classList.add("active");
+    //         allDivs.forEach(function(ele) {
+    //             ele.style.display = "none";
+    //         })
+    //     }
+    // })
+
+    // let user = {
+    //     name: "Peter",
+    //     age: 24,
+    //     skills: ["HTML", "CSS", "JS"],
+    //     available: false,
+    //     adresses: {
+    //         egypt: {
+    //             one: "Cairo",
+    //             two: "Giza",
+    //         },
+    //         usa: "LA",
+    //     },
+    //     checkav: function() {
+    //         if (user.available === true) {
+    //             return `Free For Work`;
+    //         } else {
+    //             return `Not Free For Work`;
+    //         }
+    //     }
+    // }
+    // console.log(user);
+    // console.log(user.name);
+    // console.log(user.age);
+    // console.log(user.skills);
+    // console.log(user.skills.join(" | "));
+    // console.log(user.skills[1]);
+    // console.log(user.adresses);
+    // console.log(user.adresses.usa);
+    // console.log(user.adresses.egypt);
+    // console.log(user.adresses.egypt.two);
+    // console.log(user["adresses"].egypt);
+    // console.log(user["adresses"]["egypt"]["two"]);
+    // console.log(user.checkav());
+
+    // let user = new Object();
+    // user.name = "Peter";
+    // user.age = 24
+    // user.sayHello = function () {
+    //     return `Hello`;
+    // }
+    // user["country"] = "Egypt";
+    // console.log(user);
+
+    document.getElementById("cl").onclick = function () {
+        console.log(this);
+    }
+    let user = {
+        age: 24,
+        ageInDays: function () {
+            return (user.age * 365) + (user.age / 4);
         }
-    })
+    }
+    console.log(user.age);
+    console.log(user.ageInDays());
 }
