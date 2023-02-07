@@ -426,15 +426,47 @@ window.onload = function () {
     // user["country"] = "Egypt";
     // console.log(user);
 
-    document.getElementById("cl").onclick = function () {
-        console.log(this);
-    }
-    let user = {
-        age: 24,
-        ageInDays: function () {
-            return (user.age * 365) + (user.age / 4);
-        }
-    }
-    console.log(user.age);
-    console.log(user.ageInDays());
+    // document.getElementById("cl").onclick = function () {
+    //     console.log(this);
+    // }
+    // let user = {
+    //     age: 24,
+    //     ageInDays: function () {
+    //         return (user.age * 365) + (user.age / 4);
+    //     }
+    // }
+    // console.log(user.age);
+    // console.log(user.ageInDays());
+
+
+    // let myIdElement = document.getElementById("my-div");
+    // let myTagElements = document.getElementsByTagName("p");
+    // let myClassElement = document.getElementsByClassName("my-span");
+    // console.log(myIdElement);
+    // console.log(myTagElements);
+    // console.log(myTagElements[0]);
+    // console.log(myClassElement[0]);
+
+    let myMainElement = document.createElement("div");
+    let myHeading = document.createElement("h2");
+    let myParagraph = document.createElement("p");
+
+    let myHeadingText = document.createTextNode("Product Title");
+    let myParagraphText = document.createTextNode("Product Discription");
+
+    // Add Heading Text
+    myHeading.appendChild(myHeadingText);
+
+    // Add Heading To Main Element
+    myMainElement.appendChild(myHeading);
+
+    // Add Paragraph Text
+    myParagraph.appendChild(myParagraphText);
+
+    // Add Paragraph To Main Element
+    myMainElement.appendChild(myParagraph);
+
+    myMainElement.className = "Product";
+
+    document.body.appendChild(myMainElement);
 }
