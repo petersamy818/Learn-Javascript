@@ -447,26 +447,79 @@ window.onload = function () {
     // console.log(myTagElements[0]);
     // console.log(myClassElement[0]);
 
-    let myMainElement = document.createElement("div");
-    let myHeading = document.createElement("h2");
-    let myParagraph = document.createElement("p");
+    // let myMainElement = document.createElement("div");
+    // let myHeading = document.createElement("h2");
+    // let myParagraph = document.createElement("p");
 
-    let myHeadingText = document.createTextNode("Product Title");
-    let myParagraphText = document.createTextNode("Product Discription");
+    // let myHeadingText = document.createTextNode("Product Title");
+    // let myParagraphText = document.createTextNode("Product Discription");
 
-    // Add Heading Text
-    myHeading.appendChild(myHeadingText);
+    // // Add Heading Text
+    // myHeading.appendChild(myHeadingText);
 
-    // Add Heading To Main Element
-    myMainElement.appendChild(myHeading);
+    // // Add Heading To Main Element
+    // myMainElement.appendChild(myHeading);
 
-    // Add Paragraph Text
-    myParagraph.appendChild(myParagraphText);
+    // // Add Paragraph Text
+    // myParagraph.appendChild(myParagraphText);
 
-    // Add Paragraph To Main Element
-    myMainElement.appendChild(myParagraph);
+    // // Add Paragraph To Main Element
+    // myMainElement.appendChild(myParagraph);
 
-    myMainElement.className = "Product";
+    // myMainElement.className = "Product";
 
-    document.body.appendChild(myMainElement);
+    // document.body.appendChild(myMainElement);
+
+
+    // let myElement = document.querySelector("div");
+
+    // console.log(myElement);
+    // console.log(myElement.children);
+    // console.log(myElement.children[1]);
+    // console.log(myElement.childNodes);
+    // console.log(myElement.firstChild);
+    // console.log(myElement.lastChild);
+    // console.log(myElement.firstElementChild);
+    // console.log(myElement.lastElementChild);
+
+
+    // let myBtn = document.getElementById("btn");
+    // myBtn.onclick = function () {
+    //     console.log("Clicked");
+    // }
+
+
+    // let userInput = document.querySelector("[name='username']");
+    // let ageInput = document.querySelector("[name='age']");
+
+    // document.forms[0].onsubmit = function (e) {
+    //     let userValid = false;
+    //     let ageValid = false;
+    //     if (userInput.value !== "" && userInput.value.length <=10) {
+    //         userValid = true;
+    //     }
+    //     if (ageInput.value !== "") {
+    //         ageValid = true;
+    //     }
+    //     if (userValid === false || ageValid === false) {
+    //         e.preventDefault();
+    //     }
+    // }
+
+    // document.links[0].onclick = function (event) {
+    //     console.log(event);
+    //     event.preventDefault();
+    // }
+
+    // let one = document.querySelector(".one");
+    // let two = document.querySelector(".two");
+    // window.onload = function () {
+    //     two.focus();
+    // };
+    // one.onblur = function () {
+    //     document.links[0].click();
+    // }
+
+
+    
 }
