@@ -521,5 +521,22 @@ window.onload = function () {
     // }
 
 
-    
+    // let element = document.getElementById("my-div");
+    // element.style.color = "blue";
+    // element.style.fontWeight = "bold";
+
+    // element.style.cssText = "font-weight: bold; color: green; opacity: 0.9";
+    // element.style.removeProperty("color");
+    // element.style.setProperty("font-size", "50px", "important");
+
+    // document.styleSheets[0].rules[0].style.removeProperty("line-height");
+    // document.styleSheets[0].rules[0].style.setProperty("background-color", "gray"); // The ".rules" Property is removed and the ".cssRoes" is used insted
+    // document.styleSheets[0].cssRules[0].style.setProperty("background-color", "red", "important");
+
+
+    let element = document.getElementById("my-div");
+    let createdP = document.createElement("p");
+    element.after("Hello From JS");
+    element.after(createdP);
+    createdP.innerHTML = "Hello From Peter To Everyone";
 }
