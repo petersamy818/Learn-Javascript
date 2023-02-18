@@ -534,9 +534,36 @@ window.onload = function () {
     // document.styleSheets[0].cssRules[0].style.setProperty("background-color", "red", "important");
 
 
-    let element = document.getElementById("my-div");
-    let createdP = document.createElement("p");
-    element.after("Hello From JS");
-    element.after(createdP);
-    createdP.innerHTML = "Hello From Peter To Everyone";
+    // let element = document.getElementById("my-div");
+    // let createdP = document.createElement("p");
+    // element.after("Hello From JS");
+    // element.after(createdP);
+    // createdP.innerHTML = "Hello From Peter To Everyone";
+
+
+    // let promptmsg = prompt("Good Day To You", "Minimum 3 Chars");
+    // console.log(promptmsg);
+
+
+    // setTimeout(function () {
+    //     console.log(`msg`)
+    // }, 2000);
+
+    // setTimeout(saymsg, 3000, "Peter", 24);
+    // function saymsg(user, age) {
+    //     console.log(`I'm Message for ${user}, His Age Is ${age}`);
+    // }
+
+    // let div = document.querySelector("div");
+    // function countdown() {
+    //     div.innerHTML -= 1;
+    //     if (div.innerHTML === "0") {
+    //         clearInterval(counter);
+    //     }
+    // }
+    // let counter = setInterval(countdown, 1000);
+
+    setTimeout(function () {
+        window.open("https://google.com", "", "width=900,height=900,left=200,top=200");
+    }, 3000);
 }
