@@ -563,7 +563,22 @@ window.onload = function () {
     // }
     // let counter = setInterval(countdown, 1000);
 
-    setTimeout(function () {
-        window.open("https://google.com", "", "width=900,height=900,left=200,top=200");
-    }, 3000);
+    // setTimeout(function () {
+    //     window.open("https://google.com", "", "width=900,height=900,left=200,top=200");
+    // }, 3000);
+
+
+    // let dateNow = new Date();
+    // console.log(dateNow);
+
+    // console.log(Date.now()); // 1000 MS = 1 Second
+    // let seconds = Date.now() / 1000;
+    // console.log(`Seconds ${seconds}`);
+
+
+    let dateNow = new Date();
+    let birthday = new Date("May 4, 99");
+    let dateDiff = dateNow - birthday;
+    console.log(dateDiff);
+    console.log(dateDiff / 1000 / 60 / 60 / 24 / 365.25);
 }
