@@ -1,4 +1,4 @@
-window.onload = function () {
+
 
     // classes from 1 - 9
 
@@ -576,9 +576,32 @@ window.onload = function () {
     // console.log(`Seconds ${seconds}`);
 
 
-    let dateNow = new Date();
-    let birthday = new Date("May 4, 99");
-    let dateDiff = dateNow - birthday;
-    console.log(dateDiff);
-    console.log(dateDiff / 1000 / 60 / 60 / 24 / 365.25);
-}
+    // let dateNow = new Date();
+    // let birthday = new Date("May 4, 99");
+    // let dateDiff = dateNow - birthday;
+    // console.log(dateDiff);
+    // console.log(dateDiff / 1000 / 60 / 60 / 24 / 365.25);
+
+
+// let a = 10;
+// let arr = [1, 2, 3, 4];
+// function saySomething() {
+//     return `Something`;
+// }
+// export {a, arr, saySomething};
+
+
+// const myJsonObjectFromServer = '{"Username": "Peter", "Age": 23}';
+// console.log(typeof myJsonObjectFromServer);
+// console.log(myJsonObjectFromServer);
+
+// const myJsObect = JSON.parse(myJsonObjectFromServer);
+// console.log(typeof myJsObect);
+// console.log(myJsObect);
+
+// myJsObect["Username"] = "samy";
+// myJsObect["Age"] = 24;
+
+// const myJsonObjectToServer = JSON.stringify(myJsObect);
+// console.log(typeof myJsonObjectToServer);
+// console.log(myJsonObjectToServer);
